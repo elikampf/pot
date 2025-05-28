@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weekly Torah insights that transform how you see life, delivered through the Prism of deep learning and practical application. 300+ episodes of profound wisdom made accessible.">
+    <meta name="keywords" content="Torah, podcast, Jewish wisdom, divrei torah, Rabbi Asaf Prisman, parsha, Jewish learning">
+    <meta name="author" content="Rabbi Asaf Aharon Prisman">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Prism of Torah - Where Ancient Wisdom Meets Modern Soul">
+    <meta property="og:description" content="Weekly Torah insights that transform how you see life. 300+ episodes of profound wisdom made accessible to every soul.">
+    <meta property="og:image" content="images/prism-social-card.jpg">
+    <meta property="og:url" content="https://www.prismoftorah.org">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Prism of Torah - Where Ancient Wisdom Meets Modern Soul">
+    <meta name="twitter:description" content="Weekly Torah insights that transform how you see life. 300+ episodes of profound wisdom made accessible to every soul.">
+    <meta name="twitter:image" content="images/prism-social-card.jpg">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Website",
+      "name": "Prism of Torah",
+      "description": "Weekly Torah insights that transform how you see life, delivered through the Prism of deep learning and practical application.",
+      "url": "https://www.prismoftorah.org",
+      "author": {
+        "@type": "Person",
+        "name": "Rabbi Asaf Aharon Prisman"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Prism of Torah"
+      }
+    }
+    </script>
+    
+    <title>Prism of Torah - Where Ancient Wisdom Meets Modern Soul</title>
+    <link rel="canonical" href="https://www.prismoftorah.org">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Header Navigation -->
+    <header class="header" role="banner">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="nav__container">
+                <!-- Logo -->
+                <div class="nav__logo">
+                    <a href="/" aria-label="Prism of Torah Home">
+                        <img src="images/prism-logo.svg" alt="Prism of Torah Logo" class="nav__logo-image">
+                        <span class="nav__logo-text">Prism of Torah</span>
+                    </a>
+                </div>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                </button>
+                
+                <!-- Navigation Menu -->
+                <div class="nav__menu" role="menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="/" class="nav__link nav__link--active" role="menuitem">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="/about" class="nav__link" role="menuitem">About</a>
+                        </li>
+                        <li class="nav__item nav__item--dropdown">
+                            <a href="/archive" class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+                                Archive
+                                <svg class="nav__dropdown-icon" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+                                    <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="2" fill="none"/>
+                                </svg>
+                            </a>
+                            <ul class="nav__dropdown" role="menu">
+                                <li><a href="/archive/bereishis" class="nav__dropdown-link" role="menuitem">Bereishis</a></li>
+                                <li><a href="/archive/shemos" class="nav__dropdown-link" role="menuitem">Shemos</a></li>
+                                <li><a href="/archive/vayikra" class="nav__dropdown-link" role="menuitem">Vayikra</a></li>
+                                <li><a href="/archive/bamidbar" class="nav__dropdown-link" role="menuitem">Bamidbar</a></li>
+                                <li><a href="/archive/devarim" class="nav__dropdown-link" role="menuitem">Devarim</a></li>
+                                <li><a href="/archive/holidays" class="nav__dropdown-link" role="menuitem">Holiday Episodes</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item nav__item--dropdown">
+                            <a href="/book" class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+                                Book
+                                <svg class="nav__dropdown-icon" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+                                    <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="2" fill="none"/>
+                                </svg>
+                            </a>
+                            <ul class="nav__dropdown" role="menu">
+                                <li><a href="/book#order" class="nav__dropdown-link" role="menuitem">Order Now</a></li>
+                                <li><a href="/book#samples" class="nav__dropdown-link" role="menuitem">Sample Chapters</a></li>
+                                <li><a href="/book#reviews" class="nav__dropdown-link" role="menuitem">Reviews</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a href="/speaking" class="nav__link" role="menuitem">Speaking & Events</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="/sponsors" class="nav__link" role="menuitem">Sponsor Partnership</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="/contact" class="nav__link" role="menuitem">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-headline">
+            <div class="hero__container">
+                <!-- Animated Prism Effect -->
+                <div class="hero__prism" aria-hidden="true">
+                    <div class="prism__light-beam"></div>
+                    <div class="prism__triangle">
+                        <svg width="120" height="120" viewBox="0 0 120 120" class="prism__svg">
+                            <polygon points="60,10 110,100 10,100" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div class="prism__spectrum">
+                        <div class="spectrum__ray spectrum__ray--red"></div>
+                        <div class="spectrum__ray spectrum__ray--orange"></div>
+                        <div class="spectrum__ray spectrum__ray--yellow"></div>
+                        <div class="spectrum__ray spectrum__ray--green"></div>
+                        <div class="spectrum__ray spectrum__ray--blue"></div>
+                        <div class="spectrum__ray spectrum__ray--indigo"></div>
+                        <div class="spectrum__ray spectrum__ray--magenta"></div>
+                    </div>
+                </div>
+                
+                <!-- Hero Content -->
+                <div class="hero__content">
+                    <h1 id="hero-headline" class="hero__headline">
+                        Where Ancient Wisdom Meets Modern Soul
+                    </h1>
+                    <p class="hero__subheadline">
+                        Weekly Torah insights that transform how you see life, delivered through the Prism of deep learning and practical application
+                    </p>
+                    
+                    <!-- CTAs -->
+                    <div class="hero__ctas">
+                        <a href="#latest-episode" class="btn btn--primary btn--large">
+                            <svg class="btn__icon" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+                                <path d="M8 5v10l8-5-8-5z" fill="currentColor"/>
+                            </svg>
+                            Listen to Latest Episode
+                        </a>
+                        <button class="btn btn--secondary btn--large" data-action="email-capture">
+                            <svg class="btn__icon" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+                                <path d="M2.5 6.5L10 11l7.5-4.5M2.5 6.5l7.5 4.5v7.5m0-7.5l7.5-4.5v7.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                            </svg>
+                            Get Weekly Insights
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Latest Episode Player -->
+                <div class="hero__player" id="latest-episode">
+                    <div class="episode-player">
+                        <div class="episode-player__info">
+                            <h3 class="episode-player__title">Latest Episode: Parashat Naso - The Hidden Power of Names</h3>
+                            <p class="episode-player__description">Discover how the Torah's detailed census reveals profound insights about individual worth and divine attention.</p>
+                            <div class="episode-player__meta">
+                                <span class="episode-player__duration">18:42</span>
+                                <span class="episode-player__date">May 23, 2025</span>
+                            </div>
+                        </div>
+                        <div class="episode-player__controls">
+                            <button class="player__btn player__btn--play" aria-label="Play episode">
+                                <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M8 5v14l11-7z" fill="currentColor"/>
+                                </svg>
+                            </button>
+                            <div class="player__progress">
+                                <div class="player__progress-bar">
+                                    <div class="player__progress-fill"></div>
+                                </div>
+                                <div class="player__time">
+                                    <span class="player__current">0:00</span>
+                                    <span class="player__total">18:42</span>
+                                </div>
+                            </div>
+                            <div class="player__volume">
+                                <button class="player__btn player__btn--volume" aria-label="Mute">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+                                        <path d="M10 3L6 7H2v6h4l4 4V3z" fill="currentColor"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prism Methodology Section -->
+        <section class="methodology" aria-labelledby="methodology-headline">
+            <div class="methodology__container">
+                <header class="methodology__header">
+                    <h2 id="methodology-headline" class="methodology__headline">The Prism Approach</h2>
+                    <p class="methodology__intro">
+                        Like light through a prism, every Torah teaching reveals multiple dimensions of wisdom. We explore each insight through four distinct lenses:
+                    </p>
+                </header>
+                
+                <div class="methodology__dimensions">
+                    <article class="dimension">
+                        <div class="dimension__band dimension__band--pshat" aria-hidden="true"></div>
+                        <div class="dimension__content">
+                            <h3 class="dimension__title">Pshat</h3>
+                            <p class="dimension__description">
+                                The straightforward meaning - understanding the text in its clear, contextual sense. The foundation upon which all deeper insights rest.
+                            </p>
+                        </div>
+                    </article>
+                    
+                    <article class="dimension">
+                        <div class="dimension__band dimension__band--remez" aria-hidden="true"></div>
+                        <div class="dimension__content">
+                            <h3 class="dimension__title">Remez</h3>
+                            <p class="dimension__description">
+                                The hinted meaning - subtle allusions and deeper implications woven into the text. What the Torah suggests beyond its literal words.
+                            </p>
+                        </div>
+                    </article>
+                    
+                    <article class="dimension">
+                        <div class="dimension__band dimension__band--drash" aria-hidden="true"></div>
+                        <div class="dimension__content">
+                            <h3 class="dimension__title">Drash</h3>
+                            <p class="dimension__description">
+                                The expounded meaning - insights drawn through creative interpretation and connection to other sources. Where wisdom comes alive.
+                            </p>
+                        </div>
+                    </article>
+                    
+                    <article class="dimension">
+                        <div class="dimension__band dimension__band--sod" aria-hidden="true"></div>
+                        <div class="dimension__content">
+                            <h3 class="dimension__title">Sod</h3>
+                            <p class="dimension__description">
+                                The mystical meaning - the deepest spiritual insights and kabbalistic understanding. The soul of Torah wisdom revealed.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="methodology__cta">
+                    <a href="/about#methodology" class="btn btn--outline">
+                        Learn More About the Method
+                        <svg class="btn__icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                            <path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Content Section -->
+        <section class="featured" aria-labelledby="featured-headline">
+            <div class="featured__container">
+                <header class="featured__header">
+                    <h2 id="featured-headline" class="featured__headline">Explore 300+ Episodes</h2>
+                    <p class="featured__intro">
+                        Dive into our comprehensive archive of transformative Torah insights, organized by the five books of the Torah for easy exploration.
+                    </p>
+                </header>
+                
+                <div class="featured__grid">
+                    <article class="episode-card episode-card--bereishis">
+                        <div class="episode-card__sefer-stripe" aria-hidden="true"></div>
+                        <img src="images/episodes/bereishis-thumbnail.jpg" alt="Bereishis episode thumbnail" class="episode-card__image">
+                        <div class="episode-card__content">
+                            <h3 class="episode-card__title">The First Light of Creation</h3>
+                            <p class="episode-card__description">Why God created light before the sun - and what this teaches us about spiritual illumination.</p>
+                            <div class="episode-card__meta">
+                                <span class="episode-card__sefer">Bereishis</span>
+                                <span class="episode-card__duration">16:23</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="episode-card episode-card--shemos">
+                        <div class="episode-card__sefer-stripe" aria-hidden="true"></div>
+                        <img src="images/episodes/shemos-thumbnail.jpg" alt="Shemos episode thumbnail" class="episode-card__image">
+                        <div class="episode-card__content">
+                            <h3 class="episode-card__title">The Burning Bush That Wouldn't Burn</h3>
+                            <p class="episode-card__description">Moshe's first encounter with the divine and the eternal flame within every soul.</p>
+                            <div class="episode-card__meta">
+                                <span class="episode-card__sefer">Shemos</span>
+                                <span class="episode-card__duration">19:45</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="episode-card episode-card--vayikra">
+                        <div class="episode-card__sefer-stripe" aria-hidden="true"></div>
+                        <img src="images/episodes/vayikra-thumbnail.jpg" alt="Vayikra episode thumbnail" class="episode-card__image">
+                        <div class="episode-card__content">
+                            <h3 class="episode-card__title">When God Calls Your Name</h3>
+                            <p class="episode-card__description">The intimate nature of divine communication and what it means to truly listen.</p>
+                            <div class="episode-card__meta">
+                                <span class="episode-card__sefer">Vayikra</span>
+                                <span class="episode-card__duration">17:12</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="episode-card episode-card--bamidbar">
+                        <div class="episode-card__sefer-stripe" aria-hidden="true"></div>
+                        <img src="images/episodes/bamidbar-thumbnail.jpg" alt="Bamidbar episode thumbnail" class="episode-card__image">
+                        <div class="episode-card__content">
+                            <h3 class="episode-card__title">Lost in the Desert, Found in Purpose</h3>
+                            <p class="episode-card__description">How forty years of wandering taught the ultimate lesson about divine timing.</p>
+                            <div class="episode-card__meta">
+                                <span class="episode-card__sefer">Bamidbar</span>
+                                <span class="episode-card__duration">20:08</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="episode-card episode-card--devarim">
+                        <div class="episode-card__sefer-stripe" aria-hidden="true"></div>
+                        <img src="images/episodes/devarim-thumbnail.jpg" alt="Devarim episode thumbnail" class="episode-card__image">
+                        <div class="episode-card__content">
+                            <h3 class="episode-card__title">Moshe's Final Words of Love</h3>
+                            <p class="episode-card__description">The leader's parting message and why love must always accompany truth.</p>
+                            <div class="episode-card__meta">
+                                <span class="episode-card__sefer">Devarim</span>
+                                <span class="episode-card__duration">18:56</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="episode-card episode-card--holiday">
+                        <div class="episode-card__sefer-stripe" aria-hidden="true"></div>
+                        <img src="images/episodes/holiday-thumbnail.jpg" alt="Holiday episode thumbnail" class="episode-card__image">
+                        <div class="episode-card__content">
+                            <h3 class="episode-card__title">The Hidden Light of Chanukah</h3>
+                            <p class="episode-card__description">Beyond the miracle of oil - discovering the eternal flame that never dims.</p>
+                            <div class="episode-card__meta">
+                                <span class="episode-card__sefer">Holiday Special</span>
+                                <span class="episode-card__duration">22:14</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="featured__cta">
+                    <a href="/archive" class="btn btn--primary">
+                        Browse Complete Archive
+                        <svg class="btn__icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                            <path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Book Showcase Section -->
+        <section class="book-showcase" aria-labelledby="book-headline">
+            <div class="book-showcase__container">
+                <div class="book-showcase__content">
+                    <div class="book-showcase__text">
+                        <h2 id="book-headline" class="book-showcase__headline">From Podcast to Page</h2>
+                        <p class="book-showcase__tagline">Divrei Torah That Suit All Ages & Stages</p>
+                        <p class="book-showcase__description">
+                            A rare blend of profound depth delivered in an engaging, conversational tone, crafted to be enjoyed by everyone—from beginners to seasoned scholars. The book that will help elevate your Shabbos table with engaging divrei Torah packed with stories and practical insights.
+                        </p>
+                        
+                        <div class="book-showcase__social-proof">
+                            <p class="social-proof__text">
+                                <svg class="social-proof__icon" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+                                    <path d="M10 1l2.5 5.5 6 .5-4.5 4 1.5 6-5-3-5 3 1.5-6-4.5-4 6-.5L10 1z" fill="currentColor"/>
+                                </svg>
+                                Endorsed by leading rabbis and Torah scholars
+                            </p>
+                        </div>
+                        
+                        <div class="book-showcase__ctas">
+                            <a href="/book#order" class="btn btn--primary">
+                                Order Your Copy
+                                <svg class="btn__icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                                    <path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" fill="none"/>
+                                </svg>
+                            </a>
+                            <a href="/book#samples" class="btn btn--outline">
+                                Read Sample Chapter
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="book-showcase__visual">
+                        <img src="images/prism-torah-book-cover.jpg" alt="Prism of Torah book cover" class="book-showcase__cover">
+                        <div class="book-showcase__shadow" aria-hidden="true"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Preview Section -->
+        <section class="about-preview" aria-labelledby="about-preview-headline">
+            <div class="about-preview__container">
+                <div class="about-preview__visual">
+                    <img src="images/rabbi-asaf-portrait.jpg" alt="Rabbi Asaf Aharon Prisman" class="about-preview__photo">
+                </div>
+                
+                <div class="about-preview__content">
+                    <h2 id="about-preview-headline" class="about-preview__headline">Meet Rabbi Asaf</h2>
+                    <p class="about-preview__text">
+                        What started as informal Torah sharing over "sushi and scotch" with childhood friends in Toronto has evolved into a global movement of Torah wisdom. Rabbi Asaf's unique journey spans prestigious yeshivas from Toronto to Bnei Brak, where he developed his signature "Prism" approach to Torah learning.
+                    </p>
+                    <p class="about-preview__text">
+                        Today, from his home in Jerusalem, Rabbi Asaf continues his daily learning in Kollel while teaching diverse students and sharing weekly insights that reach souls across six continents. His gift lies in making the most profound spiritual concepts feel both accessible and immediately relevant to modern life.
+                    </p>
+                    
+                    <div class="about-preview__cta">
+                        <a href="/about" class="btn btn--outline">
+                            Read Full Story
+                            <svg class="btn__icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                                <path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" fill="none"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Proof Section -->
+        <section class="social-proof" aria-labelledby="social-proof-headline">
+            <div class="social-proof__container">
+                <header class="social-proof__header">
+                    <h2 id="social-proof-headline" class="social-proof__headline">Reaching Souls Worldwide</h2>
+                    <p class="social-proof__intro">
+                        From Jerusalem to Sydney, from Toronto to Johannesburg—Torah wisdom knows no boundaries.
+                    </p>
+                </header>
+                
+                <div class="social-proof__stats">
+                    <div class="stat">
+                        <div class="stat__number">300+</div>
+                        <div class="stat__label">Episodes</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__number">30+</div>
+                        <div class="stat__label">Countries</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__number">Weekly</div>
+                        <div class="stat__label">Since 2020</div>
+                    </div>
+                </div>
+                
+                <div class="social-proof__map">
+                    <img src="images/listener-map.svg" alt="Map showing global listener distribution" class="map__image">
+                    <div class="map__highlights">
+                        <div class="map__highlight map__highlight--israel" style="top: 42%; left: 52%;">
+                            <span class="map__tooltip">Israel: 33.1%</span>
+                        </div>
+                        <div class="map__highlight map__highlight--canada" style="top: 25%; left: 25%;">
+                            <span class="map__tooltip">Canada: 31.1%</span>
+                        </div>
+                        <div class="map__highlight map__highlight--usa" style="top: 35%; left: 22%;">
+                            <span class="map__tooltip">USA: 24.9%</span>
+                        </div>
+                        <div class="map__highlight map__highlight--australia" style="top: 75%; left: 80%;">
+                            <span class="map__tooltip">Australia: 4.7%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-proof__testimonials">
+                    <blockquote class="testimonial">
+                        <p class="testimonial__text">
+                            "Rabbi Asaf has a unique gift for making ancient wisdom feel fresh and relevant. His weekly insights have transformed how I approach both Torah study and daily challenges."
+                        </p>
+                        <cite class="testimonial__author">— Sarah M., Toronto</cite>
+                    </blockquote>
+                    
+                    <blockquote class="testimonial">
+                        <p class="testimonial__text">
+                            "The depth and accessibility of these teachings is remarkable. Perfect preparation for meaningful Shabbos table discussions."
+                        </p>
+                        <cite class="testimonial__author">— David K., Sydney</cite>
+                    </blockquote>
+                    
+                    <blockquote class="testimonial">
+                        <p class="testimonial__text">
+                            "Every episode leaves me with new perspective and practical wisdom I can apply immediately. This is Torah learning for our generation."
+                        </p>
+                        <cite class="testimonial__author">— Rachel L., Jerusalem</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Signup Section -->
+        <section class="newsletter" aria-labelledby="newsletter-headline">
+            <div class="newsletter__container">
+                <div class="newsletter__content">
+                    <h2 id="newsletter-headline" class="newsletter__headline">Never Miss a Soul-Stirring Insight</h2>
+                    <p class="newsletter__description">
+                        Join thousands of Torah learners who receive weekly insights that transform how they see life. Plus exclusive content, early access to new episodes, and bonus study materials.
+                    </p>
+                    
+                    <form class="newsletter__form" action="#" method="post" novalidate>
+                        <div class="form__group">
+                            <label for="newsletter-email" class="form__label visually-hidden">Email Address</label>
+                            <input 
+                                type="email" 
+                                id="newsletter-email" 
+                                name="email" 
+                                class="form__input" 
+                                placeholder="Enter your email address"
+                                required
+                                aria-describedby="newsletter-email-error"
+                            >
+                            <button type="submit" class="btn btn--primary">
+                                Get Weekly Insights
+                                <svg class="btn__icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                                    <path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" fill="none"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div id="newsletter-email-error" class="form__error" role="alert" aria-live="polite"></div>
+                        <p class="newsletter__privacy">
+                            We respect your privacy. Unsubscribe at any time. 
+                            <a href="/privacy" class="newsletter__privacy-link">View our privacy policy</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer__container">
+            <!-- Quick Navigation -->
+            <div class="footer__section">
+                <h3 class="footer__heading">Quick Links</h3>
+                <ul class="footer__links">
+                    <li><a href="#latest-episode" class="footer__link">Latest Episode</a></li>
+                    <li><a href="/book#order" class="footer__link">Order Book</a></li>
+                    <li><a href="#newsletter" class="footer__link">Email Subscribe</a></li>
+                    <li><a href="/speaking" class="footer__link">Speaking Inquiry</a></li>
+                </ul>
+            </div>
+            
+            <!-- Podcast Platforms -->
+            <div class="footer__section">
+                <h3 class="footer__heading">Listen On</h3>
+                <ul class="footer__links footer__links--social">
+                    <li>
+                        <a href="https://open.spotify.com/show/prismoftorah" class="footer__link footer__link--social" target="_blank" rel="noopener noreferrer">
+                            <svg class="footer__social-icon" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+                                <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm4.584 14.423c-.18.295-.563.387-.857.207-2.348-1.435-5.304-1.76-8.785-.964-.335.077-.67-.132-.746-.467-.077-.335.132-.67.467-.746 3.809-.871 7.077-.496 9.713 1.115.294.18.387.563.207.857zm1.223-2.723c-.226.367-.706.482-1.073.256-2.687-1.652-6.785-2.131-9.965-1.166-.422.128-.867-.11-.995-.532-.128-.422.11-.867.532-.995 3.632-1.102 8.147-.569 11.245 1.364.367.226.482.706.256 1.073zm.105-2.835C13.486 6.95 8.542 6.775 5.285 7.704c-.5.143-1.02-.147-1.163-.647-.143-.5.147-1.02.647-1.163C8.562 5.02 14.096 5.232 17.737 7.06c.44.22.618.76.398 1.2-.22.44-.76.618-1.2.398z" fill="currentColor"/>
+                            </svg>
+                            Spotify
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://podcasts.apple.com/podcast/prism-of-torah" class="footer__link footer__link--social" target="_blank" rel="noopener noreferrer">
+                            <svg class="footer__social-icon" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+                                <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm0 2.5a7.5 7.5 0 100 15 7.5 7.5 0 000-15zm0 3a4.5 4.5 0 110 9 4.5 4.5 0 010-9zm0 2a2.5 2.5 0 100 5 2.5 2.5 0 000-5zm0 1a1.5 1.5 0 110 3 1.5 1.5 0 010-3z" fill="currentColor"/>
+                            </svg>
+                            Apple Podcasts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/prismoftorah" class="footer__link footer__link--social" target="_blank" rel="noopener noreferrer">
+                            <svg class="footer__social-icon" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+                                <path d="M10 5.5a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm0 7.5a3 3 0 110-6 3 3 0 010 6zm5.25-7.75a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0zM10 1.5c2.267 0 2.535.009 3.431.05.828.037 1.276.174 1.575.29.396.154.678.338.975.635.297.297.481.579.635.975.116.299.253.747.29 1.575.041.896.05 1.164.05 3.431s-.009 2.535-.05 3.431c-.037.828-.174 1.276-.29 1.575-.154.396-.338.678-.635.975-.297.297-.579.481-.975.635-.299.116-.747.253-1.575.29-.896.041-1.164.05-3.431.05s-2.535-.009-3.431-.05c-.828-.037-1.276-.174-1.575-.29-.396-.154-.678-.338-.975-.635-.297-.297-.481-.579-.635-.975-.116-.299-.253-.747-.29-1.575C1.509 12.535 1.5 12.267 1.5 10s.009-2.535.05-3.431c.037-.828.174-1.276.29-1.575.154-.396.338-.678.635-.975.297-.297.579-.481.975-.635.299-.116.747-.253 1.575-.29C7.465 1.509 7.733 1.5 10 1.5zm0-1.5C7.7 0 7.417.01 6.464.052c-.956.044-1.61.196-2.18.418A4.41 4.41 0 002.69 1.47 4.41 4.41 0 001.47 2.69c-.222.57-.374 1.224-.418 2.18C.99 5.583 0 5.867 0 10s.01 4.417.052 5.536c.044.956.196 1.61.418 2.18.222.57.515 1.051 1 1.594.543.485 1.024.778 1.594 1 .57.222 1.224.374 2.18.418C7.583 19.99 7.867 20 10 20s2.417-.01 3.536-.052c.956-.044 1.61-.196 2.18-.418a4.41 4.41 0 001.594-1c.485-.543.778-1.024 1-1.594.222-.57.374-1.224.418-2.18.042-1.119.052-1.403.052-3.536s-.01-2.417-.052-3.536c-.044-.956-.196-1.61-.418-2.18a4.41 4.41 0 00-1-1.594A4.41 4.41 0 0015.716.47c-.57-.222-1.224-.374-2.18-.418C12.417.01 12.133 0 10 0z" fill="currentColor"/>
+                            </svg>
+                            Instagram
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Contact Info -->
+            <div class="footer__section">
+                <h3 class="footer__heading">Contact</h3>
+                <div class="footer__contact">
+                    <p class="footer__contact-item">
+                        <svg class="footer__contact-icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                            <path d="M2.5 3h11a1 1 0 011 1v8a1 1 0 01-1 1h-11a1 1 0 01-1-1V4a1 1 0 011-1zm11 2L8 8.5 2.5 5v7h11V5z" fill="currentColor"/>
+                        </svg>
+                        <a href="mailto:prismoftorah@gmail.com" class="footer__contact-link">prismoftorah@gmail.com</a>
+                    </p>
+                    <p class="footer__contact-item">
+                        <svg class="footer__contact-icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                            <path d="M8 1a7 7 0 100 14A7 7 0 008 1zM8 2.5a5.5 5.5 0 110 11 5.5 5.5 0 010-11z" fill="currentColor"/>
+                            <path d="M8 4a4 4 0 100 8 4 4 0 000-8z" fill="currentColor"/>
+                        </svg>
+                        Jerusalem, Israel
+                    </p>
+                    <p class="footer__contact-item">
+                        <svg class="footer__contact-icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                            <path d="M8 1l2 4h4l-3 3 1 4-4-2-4 2 1-4-3-3h4l2-4z" fill="currentColor"/>
+                        </svg>
+                        Response within 48 hours
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Logo and Copyright -->
+            <div class="footer__section footer__section--brand">
+                <div class="footer__brand">
+                    <img src="images/prism-logo-white.svg" alt="Prism of Torah" class="footer__logo">
+                </div>
+                <div class="footer__legal">
+                    <p class="footer__copyright">
+                        © 2025 Prism of Torah. All rights reserved.
+                    </p>
+                    <ul class="footer__legal-links">
+                        <li><a href="/privacy" class="footer__legal-link">Privacy Policy</a></li>
+                        <li><a href="/terms" class="footer__legal-link">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Hidden Mobile Email Capture Button -->
+    <div class="mobile-email-capture" aria-hidden="true">
+        <button class="mobile-email-capture__btn" data-action="email-capture">
+            <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M2.5 6.5L10 11l7.5-4.5M2.5 6.5l7.5 4.5v7.5m0-7.5l7.5-4.5v7.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+            </svg>
+            Get Insights
+        </button>
+    </div>
+
+    <!-- Email Capture Modal -->
+    <div class="modal modal--email-capture" id="email-capture-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title" aria-describedby="modal-description">
+        <div class="modal__overlay" data-action="close-modal"></div>
+        <div class="modal__content">
+            <button class="modal__close" data-action="close-modal" aria-label="Close modal">
+                <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2"/>
+                </svg>
+            </button>
+            
+            <div class="modal__header">
+                <h3 id="modal-title" class="modal__title">Transform Your Torah Learning</h3>
+                <p id="modal-description" class="modal__description">
+                    Join thousands who receive weekly insights that change how they see life. Plus exclusive content and early access to new episodes.
+                </p>
+            </div>
+            
+            <form class="modal__form" action="#" method="post" novalidate>
+                <div class="form__group">
+                    <label for="modal-email" class="form__label">Email Address</label>
+                    <input 
+                        type="email" 
+                        id="modal-email" 
+                        name="email" 
+                        class="form__input" 
+                        placeholder="Enter your email address"
+                        required
+                        aria-describedby="modal-email-error"
+                    >
+                </div>
+                <div id="modal-email-error" class="form__error" role="alert" aria-live="polite"></div>
+                
+                <button type="submit" class="btn btn--primary btn--full-width">
+                    Get Weekly Insights
+                    <svg class="btn__icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                        <path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" fill="none"/>
+                    </svg>
+                </button>
+                
+                <p class="modal__privacy">
+                    We respect your privacy. Unsubscribe at any time.
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Screen Reader Announcements -->
+    <div id="announcements" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
